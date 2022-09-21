@@ -48,19 +48,29 @@ button {
         padding: 25px;   
         background-color: green;  
     }
+       .container3 {   
+        padding: 5px;   
+        background-color: lightgreen;  
+    }
 </style>
 </head>
 <body>
 <center>
 <div class="container2"><h2>Application Submitted Successfully🗸</h2>
+<div class="container3"><h3> Application Id :  ${student}</h3></div>
 </div> </center>
 <center> <h1> Check Application Status </h1> </center>   
-    <form action="veriStudent">  
+    <form action="getStatus">  
         <div class="container">   
             <label>Student Application Id : </label>   
             <input type="text" placeholder="Enter application id" name="id" required>
              
             <button type="submit">Submit</button>   
+        </div>   
+</form>
+<form >  
+        <div class="container">   
+           <a href="/default.jsp"><h2>Home Page</h2></a>
         </div>   
 </form>
 </body>

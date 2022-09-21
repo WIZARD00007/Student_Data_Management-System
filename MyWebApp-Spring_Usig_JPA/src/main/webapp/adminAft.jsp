@@ -49,10 +49,15 @@ button {
         padding: 4px;   
         background-color: lightyellow;  
     }
+       .container3 {   
+        padding: 6px;   
+        background-color: green;  
+    }
 </style>
 </head>
 <body>
 <div class="container2"> <center> <h1> Welcome Admin</h1> </center>  </div> 
+<div class="container3"> <center> <h1> Successfully Updated Student details🗸</h1> </center>  </div> 
 <center> <h1>Fetch Student Details</h1> </center> 
     <form action="veriStudent">  
         <div class="container">   

@@ -54,12 +54,16 @@ button {
 <body>
 
 <center> <h1> Check Application Status </h1> </center>   
-    <form action="veriStudent">  
+    <form action="getStatus">  
         <div class="container">   
             <label>Student Application Id : </label>   
             <input type="text" placeholder="Enter application id" name="id" required>
-               
             <button type="submit">Submit</button>   
+        </div>   
+</form>
+<form >  
+        <div class="container">   
+           <a href="/default.jsp"><h2>Home Page</h2></a>
         </div>   
 </form>
 </body>

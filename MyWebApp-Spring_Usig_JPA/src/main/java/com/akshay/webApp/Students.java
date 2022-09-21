@@ -1,5 +1,6 @@
 package com.akshay.webApp;
 
+import java.util.Collection;
 import java.util.Random;
 import java.util.UUID;
 
@@ -21,7 +22,7 @@ public class Students{
 @GeneratedValue(strategy=GenerationType.SEQUENCE,generator="demo_sql")
 @GenericGenerator(name="demo_sql",strategy="com.akshay.webApp.Idgenerator",parameters= {
 		@Parameter(name=Idgenerator.INCREMENT_PARAM,value="1"),
-		@Parameter(name=Idgenerator.VALUE_PREFIX_PARAMETER,value="UID"),
+		@Parameter(name=Idgenerator.VALUE_PREFIX_PARAMETER,value="UID2022"),
 		@Parameter(name=Idgenerator.NUMBER_FORMAT_PARAMETER,value="%05d")
 })
 @Id
@@ -37,6 +38,7 @@ private String id;
 	private String psw_repeat;
 	private String email;
 	private String status;
+	private String course;
 	public String getMiddleName() {
 		return middleName;
 	}
@@ -124,4 +126,12 @@ private String id;
 
 	public void setStatus(String status) {
 		this.status = status;
+	}
+
+	public String getCourse() {
+		return course;
+	}
+
+	public void setCourse(String course) {
+		this.course = course;
 	}}

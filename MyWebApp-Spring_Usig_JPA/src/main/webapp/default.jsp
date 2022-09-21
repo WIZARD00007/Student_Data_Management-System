@@ -64,5 +64,10 @@ button {
            <a href="/veriAppli"><h2>Check Application status</h2></a>
         </div>   
 </form>
+<form >  
+        <div class="container">   
+           <a href="/getData.jsp"><h2>Check Your Application</h2></a>
+        </div>   
+</form>
 </body>
 </html>

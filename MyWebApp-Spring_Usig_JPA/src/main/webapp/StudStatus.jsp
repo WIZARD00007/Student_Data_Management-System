@@ -42,21 +42,18 @@ button {
         
      
  .container {   
-        padding: 25px;   
+        padding: 4px;   
         background-color: lightblue;  
     }   
 </style>
 </head>
 <body>
-<center> <h1> Admin Login Form </h1> </center>   
+<center> <h1> Student Details </h1> </center>  
+ <center> <h3> Application Id : ${uid} </h3> </center> 
     <form action="veriUser">  
         <div class="container">   
-            <label>Username : </label>   
-            <input type="text" placeholder="Enter Username" name="username" required>  
-            <label>Password : </label>   
-            <input type="password" placeholder="Enter Password" name="password" required>  
-            <button type="submit">Login</button>   
-            <input type="checkbox" checked="checked"> Remember me&#160;&#160;&#160;&#160;&#160;&#160;Forgot <a href="#"> password?  
+           <center> <h3>${fname} Your Application Is ${status}</h3> </center>
+            
         </div>   
 </form>
 <form >  

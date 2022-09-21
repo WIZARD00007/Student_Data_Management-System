@@ -64,6 +64,11 @@ button {
             <button type="submit">Login</button>   
             <input type="checkbox" checked="checked"> Remember me&#160;&#160;&#160;&#160;&#160;&#160;Forgot <a href="#"> password?  
         </div>   
-
+</form>
+<form >  
+        <div class="container">   
+           <a href="/default.jsp"><h2>Home Page</h2></a>
+        </div>   
+</form>
 </body>
 </html>

@@ -67,7 +67,7 @@ hr {
 Course :  
 </label>   
   
-<select name="courses" >  
+<select name="course" required>  
 <option value="Course">Course</option>  
 <option value="BCA">BCA</option>  
 <option value="BBA">BBA</option>  
@@ -106,5 +106,10 @@ Current Address :
     <button type="submit" class="registerbtn">Register</button>  
     <input type="hidden" name="status" value="pending">  
 </form>  
+<form >  
+        <div class="container">   
+           <a href="/default.jsp"><h2>Home Page</h2></a>
+        </div>   
+</form>
 </body>  
 </html>

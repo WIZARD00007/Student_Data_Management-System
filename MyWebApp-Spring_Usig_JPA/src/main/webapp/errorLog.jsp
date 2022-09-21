@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+
 <html>
 <head>
 <meta charset="UTF-8">
@@ -44,19 +45,25 @@ button {
  .container {   
         padding: 25px;   
         background-color: lightblue;  
-    }   
+    } 
+      .container2 {   
+        padding: 25px;   
+        background-color: red;  
+    }
 </style>
 </head>
 <body>
-<center> <h1> Admin Login Form </h1> </center>   
-    <form action="veriUser">  
+
+<center> <h1> Fetch Your Data </h1> </center>  
+<div class="container2">The Application Id or password you entered is incorrect Please try again
+</div> 
+    <form action="veriStudentData">  
         <div class="container">   
-            <label>Username : </label>   
-            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label>Student Application Id : </label>   
+            <input type="text" placeholder="Enter application id" name="id" required>
             <label>Password : </label>   
-            <input type="password" placeholder="Enter Password" name="password" required>  
-            <button type="submit">Login</button>   
-            <input type="checkbox" checked="checked"> Remember me&#160;&#160;&#160;&#160;&#160;&#160;Forgot <a href="#"> password?  
+            <input type="text" placeholder="Enter Password" name="password" required>
+            <button type="submit">Submit</button>   
         </div>   
 </form>
 <form >  
